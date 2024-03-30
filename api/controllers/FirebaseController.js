@@ -2,7 +2,7 @@
 var admin = require("firebase-admin");
 const { initializeApp, applicationDefault  } = require('firebase-admin/app');
 const { getMessaging  } = require('firebase-admin/messaging');
-var serviceAccount = require("../../sdk-firebase-new.json");
+var serviceAccount = require("../../sdkfirebasenew.json");
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
   });
